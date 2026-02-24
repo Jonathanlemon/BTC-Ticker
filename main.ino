@@ -22,13 +22,13 @@
 #define A_PIN 23
 #define B_PIN 19
 #define C_PIN 5
-#define D_PIN 17
+#define D_PIN 16
 #define E_PIN 21
 
 // ===== Control pins =====
 #define LAT_PIN 4
 #define OE_PIN 15
-#define CLK_PIN 16
+#define CLK_PIN 17
 
 // Setup history size
 #define HISTORY_SIZE 64
@@ -54,8 +54,8 @@ float maxPrice = 0;
 bool updated = false;
 
 // Replace with your network credentials
-const char* ssid     = "abcd";
-const char* password = "1234";
+const char* ssid     = "";
+const char* password = "";
 
 void setupWiFi() {
     Serial.print("Connecting to WiFi: ");
